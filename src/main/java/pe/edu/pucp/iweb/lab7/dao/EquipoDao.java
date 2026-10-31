@@ -38,10 +38,6 @@ public class EquipoDao extends BaseDao{ // TODO 2a: debe heredar de BaseDao
                 equipoSwitch.setModelo(rs.getString("modelo"));
                 equipoSwitch.setCantidad(rs.getDouble("cantidad"));
 
-
-                libro.setGenero(genero);
-
-                lista.add(libro);
             }
         }catch (SQLException e){
             e.printStackTrace();
